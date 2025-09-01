@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: 'TuringUiLibrary',
+      name: 'ApacUiLibrary',
       formats: ['es', 'cjs'],
       fileName: (format) => (format === 'es' ? 'index.mjs' : 'index.cjs'),
     },
