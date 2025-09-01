@@ -18,10 +18,18 @@ Import both the components and the compiled CSS:
 
 ```tsx
 import '@apac/ui-library/style.css';
-import { Button } from '@apac/ui-library';
+import { FloatingButton } from '@apac/ui-library';
 
 export default function Example() {
-  return <Button variant="primary">Click me</Button>;
+  return (
+    <FloatingButton
+      ariaLabel="Create"
+      icon={<span>+</span>}
+      position="bottom-right"
+      size="md"
+      onClick={() => console.log('FAB clicked')}
+    />
+  );
 }
 ```
 

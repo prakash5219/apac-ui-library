@@ -1,5 +1,5 @@
 import './styles.css';
-export { Button } from './primitives/Button';
-export type { ButtonProps } from './primitives/Button';
+export { FloatingButton } from './primitives/FloatingButton';
+export type { FloatingButtonProps } from './primitives/FloatingButton';
 
 
